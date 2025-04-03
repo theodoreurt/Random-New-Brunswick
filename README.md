@@ -51,9 +51,7 @@
       document.getElementById('place').textContent = places[randomIndex];
     }
   </script>
-  <p>You should visit {
-      const randomIndex = Math.floor(Math.random() * places.length);
-      document.getElementById('place').textContent = places[randomIndex];
-    }, New Brunswick.</p>
+  <p>You should visit {const randomIndex = Math.floor(Math.random() * places.length);
+      document.getElementById('place').textContent = places[randomIndex];}, New Brunswick.</p>
 </body> 
 </html>
