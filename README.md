@@ -24,8 +24,8 @@
 <body>
   <h1>Random Place Generator</h1>
   <button onclick="generateRandomPlace()">Generate Random Place</button>
+   <p>You should visit </p>
   <div id="place"></div>
-  <p>You should visit </p>
   <script>
     const places = [
     "Fredericton",
