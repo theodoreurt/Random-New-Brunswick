@@ -23,9 +23,9 @@
 </head>
 <body>
   <h1>Random Place Generator</h1>
-  <p>You should visit </p>
   <button onclick="generateRandomPlace()">Generate Random Place</button>
   <div id="place"></div>
+  <p>You should visit </p>
   <script>
     const places = [
     "Fredericton",
@@ -49,6 +49,6 @@
       document.getElementById('place').textContent = places[randomIndex];
     }
   </script>
-  <p>, New Brunswick.</p>
+  <p> New Brunswick.</p>
 </body> 
 </html>
